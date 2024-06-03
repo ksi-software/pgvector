@@ -1,6 +1,6 @@
 # Contributing
 
-The following is a guide towards contributing to the ksisoft/php project.
+The following is a guide towards contributing to the ksisoft/pgvector project.
 This document describes the typical workflow, the standards, branching strategy and commit message conventions.
 
 ## Commit Messages
@@ -31,10 +31,10 @@ To push changes to Docker Hub, you must have the Docker engine running on your h
 At minimum, you only need to do the following two steps:
 
 1. Build the Docker image
-    ```shell
-    docker build -t ksisoft/php:8.3-fpm-grpc .
-    ```
+   ```shell
+   docker build -t ksisoft/pgvector:16.3-alpine .
+   ```
 2. Push the Docker image to Docker Hub
-    ```shell
-    docker push ksisoft/php:8.3-fpm-grpc
-    ```
+   ```shell
+   docker push ksisoft/pgvector:16.3-alpine
+   ```
